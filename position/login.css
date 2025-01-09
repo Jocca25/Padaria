@@ -1,0 +1,270 @@
+/* Geral */
+html {
+    background-image: url('../imagem/main_fotografia.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Logo_2{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+.container {
+    position: relative;
+    background-color:#907F48 ;
+    border-radius: 10px;
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 350px;
+    margin: 20px auto;;
+    margin-bottom: 30px;
+    font-size: 30px;
+    max-width: 1px;
+}
+.Login_1, .Email_1, .Password_1{
+    padding: 15px;
+    background-color: #D9BB57;
+    border-radius: 30px;
+}
+/* legendas */
+.Login_1{
+    position: absolute;
+    top: 2px;
+    left: 280px;
+    font-weight:bold;
+}
+
+.Email_1{
+    position: absolute;
+    top: 150px;
+    left: 8px;
+    font-weight:bold;
+}
+.Password_1{
+    position: absolute;
+    top: 350px;
+    left: 8px;
+    font-weight:bold;
+}
+/* conjunto*/
+.Put_email, .Put_password{
+    padding: 25px;
+    border-radius: 15px;
+    left: 15px;
+    right: 15px;
+    font-size: large;
+}
+/* Put */
+.Put_email{
+    position: absolute;
+    top:225px;
+
+}
+.Put_password{
+    position: absolute;
+    top:425px;
+}
+.Submit_button {
+    position: absolute;
+    font-weight: bold;
+    bottom: 50px;
+    left: 290px;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 40px;
+    background-color: #D9BB57;
+    border:none;
+    cursor: pointer;    
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Submit_button:hover {
+    background-color:#9c8537;
+    border-color:#877435;
+}
+
+
+/* Footer */
+footer {
+    position: relative;
+    background-color: #907F48;
+    color: white;
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+/* Footer Top Section */
+.Footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+    
+.Log_in_lojas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:10px;  
+    top:20px;
+}
+
+.Log_in_lojas a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.Log_in_lojas a:hover {
+    text-decoration: underline;
+}
+.Retangulo{
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background-color: white;
+    border: white;
+    left: 160px;
+    bottom: 15px;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    background-color: #907F48;
+    color: white;
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+.Footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+    
+.Log_in_lojas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:10px;  
+    top:20px;
+}
+
+.Log_in_lojas a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.Log_in_lojas a:hover {
+    text-decoration: underline;
+}
+.Retangulo{
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background-color: white;
+    border: white;
+    left: 160px;
+    bottom: 15px;
+}
+
+.Info {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 1px;
+    left: 220px;
+}
+
+.Telefone_group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Email_info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Numero, .Email {
+    font-size: 14px;
+}
+
+.Telefone, .Caixa_email {
+    width: 24px;
+    height: 24px;
+}
+
+
+.Suporte{
+    position: absolute;
+    right: 700px;
+    top: 60px;
+    
+}
+.Privacidade{
+    position: absolute;
+    right: 500px;
+    top: 60px;
+}
+.Termo{
+    position: absolute;
+    right: 300px;
+    top:60px;
+}
+.Qualidade{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.Privacidade, .Termo, .Suporte{
+    color: white;
+    text-decoration: none;
+}
+
+.Privacidade a, .Termo a , .Suporte a :hover{
+    text-decoration:underline;
+}

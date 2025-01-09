@@ -1,0 +1,251 @@
+/* Geral */
+html {
+    background-image: url('../imagem/main_fotografia.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+body {
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    font-size: 20px;;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Body */
+.Quadro_branco {
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;
+    width: 94%;
+    height: 800px;
+    background-color: #6f6237;
+    border: 2px solid #6f6237;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+    padding: 10px; 
+    overflow: auto;
+    left: 30px;
+    top:1px;
+    margin-bottom: 15px;
+}
+canvas#grafico {
+    position: absolute;
+    left:10px;
+    top:10px;
+    width: 700px;
+    height:1000px;
+    margin: 20px auto;
+    display: block;
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 20px;
+    top:0px;
+}
+canvas#grafico2{
+    color: white;
+    position:absolute;
+    left:10px;
+    bottom:10px;
+    width: 700px;
+    height: 1000px;
+    margin: 20px auto;
+    display: block;
+    background-color: white; 
+    border: 4px solid white; 
+    border-radius: 20px;
+    bottom: 0px;    
+}
+.bt_voltar{
+    border:none;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    color: #383e42;
+    bottom:20px;    
+    right:120px;      
+    border-radius:40px;
+    padding: 10px;
+    font-size: 35px;
+}
+.bt_voltar:hover{
+    background-color: #383e42;
+    color:white
+}
+.titulo_loja{
+    position: absolute;
+    color:white;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    top:10px;
+    right:200px;
+
+}
+
+footer {
+    position: relative;
+    background-color: #907F48;
+    color: white;
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+.Footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+    
+.Log_in_lojas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:10px;  
+    top:20px;
+}
+
+.Log_in_lojas a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.Log_in_lojas a:hover {
+    text-decoration: underline;
+}
+.Retangulo{
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background-color: white;
+    border: white;
+    left: 160px;
+    bottom: 15px;
+}
+
+/* Footer */
+.Log_in_lojas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:10px;  
+    top:20px;
+}
+
+.Log_in_lojas a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.Log_in_lojas a:hover {
+    text-decoration: underline;
+}
+.Retangulo{
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background-color: white;
+    border: white;
+    left: 160px;
+    bottom: 15px;
+}
+
+/* Info Section */
+.Info {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 1px;
+    left: 220px;
+}
+
+.Telefone_group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Email_info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Numero, .Email {
+    font-size: 14px;
+}
+
+.Telefone, .Caixa_email {
+    width: 24px;
+    height: 24px;
+}
+
+/* Footer Bottom Section */
+.Suporte{
+    position: absolute;
+    right: 700px;
+    top: 60px;
+    
+}
+.Privacidade{
+    position: absolute;
+    right: 500px;
+    top: 60px;
+}
+.Termo{
+    position: absolute;
+    right: 300px;
+    top:60px;
+}
+.Qualidade{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.Privacidade, .Termo, .Suporte{
+    color: white;
+    text-decoration: none;
+}
+
+.Privacidade a, .Termo a , .Suporte a :hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #907F48;
+    color: white;
+    padding: 1px 0px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 1;
+}
+
+header .search-bar {
+    position: absolute;
+    top: 15%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background: url('imgr/bracc81z_pane-e-dolci_bruno-geraldi.jpg.webp') center center/cover no-repeat;  
+    margin-right: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: auto; 
+    padding: 50px 10px;
+}
+
+
+.menu button {
+    background-color: white;
+    border: 0;
+    padding: 10px 60px;
+    border-radius: 0%;
+    margin: 0 90px;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    border-bottom: 6px solid transparent;
+}
+
+.menu button:hover {
+    border-bottom: 3px solid #907F48;
+}
+
+main {
+    padding: 20px;
+}
+
+.informacoes-pedidos {
+    margin-bottom: 30px;
+}
+
+.informacoes-pedidos h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-icon {
+    font-size: 18px;
+    color: #777;
+    cursor: pointer;
+}
+
+.pedidos-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.pedido-card {
+    background-color: #907F48;
+    border: 1px solid #907F48;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pedido-card h3 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.pedido-card p {
+    margin: 5px 0;
+}
+
+.status-pendente {
+    color: rgb(188, 171, 36);
+    font-weight: bold;
+}
+
+.status-entregue {
+    color: green;
+    font-weight: bold;
+}
+
+.card-actions button {
+    background-color: #907F48;
+    color:black;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-actions button:hover {
+    background-color: #E3CB7D;
+}
+
+.resumo-diario {
+    margin-top: 20px;
+}
+
+.resumo-diario h2 {
+    font-size: 24px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.resumo-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.resumo-card {
+    background-color: #907F48;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resumo-card h3 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.resumo-card button {
+    background-color: #E3CB7D;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resumo-card button:hover {
+    background-color: #E3CB7D;
+}
+
+footer {
+    position: relative;
+    background-color:#907F48;
+    color:#ffffff;
+    padding: 15px 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 90px;
+}
+.Footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}  
+.Log_in_lojas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:10px;  
+    top:45px;
+}
+.Log_in_lojas a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+.Log_in_lojas a:hover {
+    text-decoration: underline;
+}
+.Retangulo{
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background-color:white;
+    border: white;
+    left: 160px;
+    bottom: 15px;
+}
+.Info {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 14px;
+    left: 220px;
+}
+.Telefone_group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Email_info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Numero, .Email {
+    font-size: 14px;
+}
+.Telefone, .Caixa_email {
+    width: 24px;
+    height: 24px;
+}
+.Suporte{
+    position: absolute;
+    right: 700px;
+    top: 60px;  
+}
+.Privacidade{
+    position: absolute;
+    right: 500px;
+    top: 60px;
+}
+.Termo{
+    position: absolute;
+    right: 300px;
+    top:60px;
+}
+.Qualidade{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

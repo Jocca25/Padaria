@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+header {
+    background-color: #907F48;
+    color: #ffffff;
+    padding: 25px 650px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url('img/banner.jpg') center center/cover no-repeat;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px 0;
+}
+.buttons button {
+    background-color: #907F48;
+    color: #000000;
+    border: none;
+    padding: 10px 60px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.buttons button:hover {
+    background-color: #907F48;
+}
+.reviews {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.review {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.review h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #000000;
+}
+.review p {
+    margin: 0 0 5px;
+    font-size: 14px;
+    color: #000000;
+}
+.review .author {
+    font-weight: bold;
+    color: #000000;
+}
+
+footer {
+    position: relative;
+    background-color:#907F48;
+    color:#ffffff;
+    padding: 15px 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 90px;
+}
+.Footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}  
+.Log_in_lojas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:10px;  
+    top:45px;
+}
+.Log_in_lojas a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+.Log_in_lojas a:hover {
+    text-decoration: underline;
+}
+.Retangulo{
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background-color:white;
+    border: white;
+    left: 160px;
+    bottom: 15px;
+}
+.Info {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 14px;
+    left: 220px;
+}
+.Telefone_group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Email_info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Numero, .Email {
+    font-size: 14px;
+}
+.Telefone, .Caixa_email {
+    width: 24px;
+    height: 24px;
+}
+.Suporte{
+    position: absolute;
+    right: 700px;
+    top: 60px;  
+}
+.Privacidade{
+    position: absolute;
+    right: 500px;
+    top: 60px;
+}
+.Termo{
+    position: absolute;
+    right: 300px;
+    top:60px;
+}
+.Qualidade{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

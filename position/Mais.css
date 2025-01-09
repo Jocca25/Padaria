@@ -1,0 +1,351 @@
+/* Geral */
+html {
+    background-image: url('../imagem/main_fotografia.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+body {
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    font-size: 20px;;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.butao_back{
+    border:none;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    color: #383e42;
+    top:0px;
+    left:30px;
+    margin: 20px auto;
+    border-radius:25px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Body */
+.Quadro_branco {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;
+    width: 94%;
+    height: 800px;
+    background-color: #6f6237;
+    border: 2px solid #6f6237;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+    padding: 10px; 
+    overflow: auto;
+    left: 30px;
+    top:1px;
+    margin-bottom: 15px;
+}
+.container-graficos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+canvas {
+    margin: 0 10px;
+}
+canvas#grafico1{
+    position: absolute;
+    margin: 20px auto;
+    background-color: white; 
+    border: 4px solid white; 
+    border-radius: 20px;
+    bottom: 10px;
+    left: 40px;
+}
+canvas#graficoPizza{
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left:40px;
+    top:20px;
+
+}
+
+.Desvio_local{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    color:white;
+    background-color: #383e42;
+    border-radius: 20px;
+    padding: 15px;
+    top: 200px;
+
+}
+.maior_venda{
+    position: absolute;
+    font-family: Arial, sans-serif;
+    color:white;
+    background-color: #383e42;
+    border-radius: 20px;
+    padding: 15px;
+    top: 40px;
+}
+.Numero_2{
+    color: #383e42;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+.Loja_1{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    color: #383e42;
+    top:100px;    
+    right:180px;   
+    margin: 20px auto;
+    border-radius:40px;
+    border:none;
+    padding: 20px;
+    font-size: 20px;
+}
+.Loja_2{
+    border:none;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    color: #383e42;
+    top:250px;    
+    right:180px;      
+    margin: 20px auto;
+    border-radius:40px;
+    padding: 20px;
+    font-size: 20px;
+}
+.Loja_3{
+    border:none;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    color: #383e42;
+    top:400px;    
+    right:180px;      
+    margin: 20px auto;
+    border-radius:40px;
+    padding: 20px;
+    font-size: 20px;
+}
+.Loja_4{
+    border:none;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    color: #383e42;
+    top:550px;    
+    right:180px;      
+    margin: 20px auto;
+    border-radius:40px;
+    padding: 20px;
+    font-size: 20px;
+}
+.Loja_1:hover,.Loja_2:hover,.Loja_3:hover,.Loja_4:hover, .mais:hover, .butao_back:hover{
+    color:white;
+    background-color: #3c3c3c; 
+    transform: scale(1.1); 
+}
+
+
+.Loja_1:active,.Loja_2:active, .Loja_3:active, .Loja_4:active,.mais:active, .butao_back:active {
+    transform: scale(1.2); 
+}
+.mais{
+    border:none;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    background-color: white;
+    color: #383e42;
+    top:700px;    
+    right:200px;      
+    margin: 20px auto;
+    border-radius:25px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Titulo_2 {
+    color: white;
+    position: absolute;
+    right: 200px;
+    top:5px;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}   
+footer {
+    position: relative;
+    background-color: #907F48;
+    color: white;
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+.Footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+    
+.Log_in_lojas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:10px;  
+    top:20px;
+}
+
+.Log_in_lojas a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.Log_in_lojas a:hover {
+    text-decoration: underline;
+}
+.Retangulo{
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background-color: white;
+    border: white;
+    left: 160px;
+    bottom: 15px;
+}
+
+/* Footer */
+.Log_in_lojas {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left:10px;  
+    top:20px;
+}
+
+.Log_in_lojas a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.Log_in_lojas a:hover {
+    text-decoration: underline;
+}
+.Retangulo{
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background-color: white;
+    border: white;
+    left: 160px;
+    bottom: 15px;
+}
+
+/* Info Section */
+.Info {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 1px;
+    left: 220px;
+}
+
+.Telefone_group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Email_info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Numero, .Email {
+    font-size: 14px;
+}
+
+.Telefone, .Caixa_email {
+    width: 24px;
+    height: 24px;
+}
+
+.Suporte{
+    position: absolute;
+    right: 700px;
+    top: 60px;
+    
+}
+.Privacidade{
+    position: absolute;
+    right: 500px;
+    top: 60px;
+}
+.Termo{
+    position: absolute;
+    right: 300px;
+    top:60px;
+}
+.Qualidade{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.Privacidade, .Termo, .Suporte{
+    color: white;
+    text-decoration: none;
+}
+
+.Privacidade a, .Termo a , .Suporte a :hover{
+    text-decoration:underline;
+}
